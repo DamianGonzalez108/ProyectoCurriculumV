@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gruppo&display=swap');
+
+body {
+    
+    font-family: 'Bungee Shade', cursive;
+    background-color: #FBF2CF;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    color: red;
+    font-size: 50px;
+    font-style: oblique;
+    letter-spacing: 14px;
+}
+.subtitulo{
+ color: black;
+ font-size: 20px;
+ letter-spacing: 4px;
+}
+.tarjeta, .ataque-boton {
+    display: flex;
+    gap: 24px;
+} 
+.tarjeta-de-mokepon {
+    width: 220px;
+    height: 120px;
+    background: #FBF2CF;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid;
+    margin: 3px;
+    border-radius:40px;
+    display: flex;
+    color: rgb(55, 55, 53);
+    justify-content: center;
+    align-items: center;
+} 
+.tarjeta-de-mokepon img {
+    width: 100px;
+}
+
+#boton-mascota {
+    width: 140px;
+    height: 40px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid;
+    font-family: 'Gruppo', cursive;
+    margin-top: 30px;
+} 
+#boton-mascota:hover{
+    background-color: #A7D2CB
+}
+input{
+    display: none;
+}
+input:checked + label{
+    background-color: #FFCC8F;
+}
+input:hover + label{
+    background-color: #FFDAAF;
+}
+
+#seleccionar-ataque {
+    align-items: center;
+    flex-direction: column;
+}
+
+.ataques{
+    width: 120px;
+    height: 54px;
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Bungee Shade', cursive;
+}
+#mensajes{
+    padding: 10px;
+    width: 280px;
+    margin-top: 24px;
+    border-radius: 20px;
+    background-color: #FFE9A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: ridge 10px;
+    border-color: #61481C;
+}
+#boton-reiniciar{
+    border-radius: 40px;
+    width: 124px;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Gruppo', cursive;
+}
+#boton-reiniciar:hover{
+    background-color: #A7D2CB;
+}
+.ataques-vidas{
+    display: grid;
+    grid-template-columns: 380px 380px;
+    text-align: center;
+}
+.ataque-jugador, .ataque-enemigo{
+    display: flex;
+    flex-direction: column;
+}
+button:active{
+    background-color: #A7D2CB;
+}
+
+@media(max-width: 300px){
+    .titulo{
+        font-size: 24px;
+        font-weight: 300px
+    }
+    .subtitulo{
+        font-size: 14px;
+    }
+    .tarjeta, .ataque-boton{
+        flex-direction: column;
+    }
+    .tarjeta-de-mokepon{
+        width: 220px;
+        height: 60px;
+        padding: 50px;
+    }
+    .tarjeta-de-mokepon img {
+        width: 90px;
+    }
+}
