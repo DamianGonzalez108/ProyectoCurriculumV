@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+#perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#fotoperfil{
+    height: 250px;
+    width: 180px;
+    margin-top: 20px;
+    margin-right: 250px;
+    border-style: solid;
+}
+#titulos{
+    margin-right: 200px;
+}
+#titulo{
+    font-size: 70px;
+    margin-top: 50px;
+}
+#subtitulo{
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: -60px;
+    text-decoration: underline overline
+}
+
+#datos{
+    margin-left: 600px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -30px;
+}
+#columna{
+  column-count: 2;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+#tituloacercademi{
+    margin-top: 0px;
+    font-size: 22px;
+}
+#acercademi{
+    width: 400px;
+}
+#tituloaptitudes{
+    margin-top: -5px;
+    font-size: 22px;
+}
+#aptitudes{
+    font-size: 20px;
+}
+#experiencialaboral{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#tituloexplaboral{
+    font-size: 22px;
+}
+#tituloatencion{
+    font-size: 18px;
+    text-decoration: overline
+}
+#ultimotitulo{
+    font-size: 18px;
+    margin-top: 30px;
+    text-decoration: overline    
+}
+#botonacercademi{
+    font-size: 10px;
+    width: 112px;
+    height: 25px;
+}
+#botoneducacion{
+    font-size: 10px;
+    width: 112px;
+    height: 25px;
+}
+#botonaptitudes{
+    font-size: 10px;
+    width: 112px;
+    height: 25px;
+}
+
+@media (max-width:300px){
+ 
+}
